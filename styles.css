@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'JetBrains Mono', monospace;  
+  text-align: center;
+}
+
+.disabled {
+  color: #aaa;
+}
+
+#text {
+  margin-bottom: 20px;
+}
